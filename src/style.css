@@ -1,0 +1,64 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap"); */
+  
+#main{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://miro.medium.com/max/1000/1*NNhrPbReFlO3gfbF8n0oxg.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-family:"Poppins";
+  color:white;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#header{
+  padding-top:20px;
+  padding-bottom:10px;
+  line-height:1.2;
+}
+
+#description{
+  font-size:18px;
+}
+
+#survey-form{
+  text-align: left;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+  padding:40px;
+  line-height:1.7;
+  font-size:18px;
+}
+
+input{
+  padding:8px;
+  font-size:16px;
+  border-radius:5px;
+  width:100%
+}
+
+select{
+  padding:8px;
+  font-size:16px;
+  border-color: white;
+  border-radius:5px;
+  width:100%;
+}
+
+
+#radio-label input{
+  width: auto;
+}
+
+#checkbox-label input{
+  width:auto;
+}
+
+#submit{
+  width:100%;
+  color:white;
+  font-size:16px;
+  padding:8px;
+  background-color:#37af65;
+}
+
